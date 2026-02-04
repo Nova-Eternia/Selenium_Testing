@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successfully Executed ----]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/test-output/Screenshots/failed.jpg' target='_blank'>View Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/test-output/Screenshots/failed.jpg' target='_blank'>View Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/test-output/Screenshots/failed.jpg' target='_blank'>View Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-04T14:46:13 IST" name="Data Driven Test" finished-at="2026-02-04T14:46:14 IST" duration-ms="869">
+    <groups>
+    </groups>
+    <test started-at="2026-02-04T14:46:13 IST" name="Bank Manager Login Test" finished-at="2026-02-04T14:46:13 IST" duration-ms="257">
+      <class name="testCases.BankManagerLoginTest">
+        <test-method signature="loginAsBankManger()[pri:0, instance:testCases.BankManagerLoginTest@705202d1]" started-at="2026-02-04T14:46:13 IST" name="loginAsBankManger" finished-at="2026-02-04T14:46:13 IST" duration-ms="134" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Failed ---]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Failed ---
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.BankManagerLoginTest.loginAsBankManger(BankManagerLoginTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully Executed ----]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/test-output/Screenshots/failed.jpg' target='_blank'>View Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManger -->
+      </class> <!-- testCases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test started-at="2026-02-04T14:46:13 IST" name="Add Customer Test" finished-at="2026-02-04T14:46:14 IST" duration-ms="601">
+      <class name="testCases.AddCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AddCustomerTest@291120f4]" started-at="2026-02-04T14:46:12 IST" name="setUp" finished-at="2026-02-04T14:46:13 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@291120f4]" started-at="2026-02-04T14:46:13 IST" name="addCustomer" data-provider="addCustomerData" finished-at="2026-02-04T14:46:14 IST" duration-ms="313" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1406NP]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Adding customer failed ---]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Adding customer failed ---
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/test-output/Screenshots/failed.jpg' target='_blank'>View Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AddCustomerTest@291120f4]" started-at="2026-02-04T14:46:14 IST" name="addCustomer" data-provider="addCustomerData" finished-at="2026-02-04T14:46:14 IST" duration-ms="119" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anurag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malviya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6262AM]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Adding customer failed ---]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Adding customer failed ---
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/test-output/Screenshots/failed.jpg' target='_blank'>View Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddCustomerTest@291120f4]" started-at="2026-02-04T14:46:14 IST" name="tearDown" finished-at="2026-02-04T14:46:24 IST" duration-ms="10240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Test -->
+</testng-results>
