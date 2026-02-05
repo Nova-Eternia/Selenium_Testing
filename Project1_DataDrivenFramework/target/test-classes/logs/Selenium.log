@@ -200,3 +200,23 @@ INFO  2026-02-04 14:46:12 [main] base.TestBase - Config file loaded !
 INFO  2026-02-04 14:46:12 [main] base.TestBase - OR file loaded !
 INFO  2026-02-04 14:46:12 [main] base.TestBase - Browser selected: safari
 INFO  2026-02-04 14:46:13 [main] base.TestBase - Navigated to https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO  2026-02-04 15:43:30 [main] base.TestBase - Config file loaded !
+INFO  2026-02-04 15:43:30 [main] base.TestBase - OR file loaded !
+INFO  2026-02-04 15:43:30 [main] base.TestBase - Browser selected: safari
+INFO  2026-02-04 15:43:32 [main] base.TestBase - Navigated to https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO  2026-02-04 15:44:35 [main] base.TestBase - Config file loaded !
+INFO  2026-02-04 15:44:35 [main] base.TestBase - OR file loaded !
+INFO  2026-02-04 15:44:35 [main] base.TestBase - Browser selected: safari
+INFO  2026-02-04 15:44:37 [main] base.TestBase - Navigated to https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO  2026-02-04 15:53:23 [main] base.TestBase - Config file loaded !
+INFO  2026-02-04 15:53:23 [main] base.TestBase - OR file loaded !
+INFO  2026-02-04 15:53:23 [main] base.TestBase - Browser selected: safari
+INFO  2026-02-04 15:53:25 [main] base.TestBase - Navigated to https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO  2026-02-04 16:06:09 [main] base.TestBase - Config file loaded !
+INFO  2026-02-04 16:06:09 [main] base.TestBase - OR file loaded !
+INFO  2026-02-04 16:06:09 [main] base.TestBase - Browser selected: safari
+INFO  2026-02-04 16:06:10 [main] base.TestBase - Navigated to https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO  2026-02-04 16:08:51 [main] base.TestBase - Config file loaded !
+INFO  2026-02-04 16:08:51 [main] base.TestBase - OR file loaded !
+INFO  2026-02-04 16:08:51 [main] base.TestBase - Browser selected: safari
+INFO  2026-02-04 16:08:52 [main] base.TestBase - Navigated to https://www.way2automation.com/angularjs-protractor/banking/#/login

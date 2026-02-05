@@ -1,6 +1,8 @@
 base/TestBase.class
+rough/TestTimeStamp.class
 utilities/ExcelReader$1.class
 utilities/ExcelReader.class
+utilities/TakeScreenshot.class
 Listeners/custom_Listener.class
 rough/TestProperties.class
 testCases/BankManagerLoginTest.class

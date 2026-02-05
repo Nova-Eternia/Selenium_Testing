@@ -7,9 +7,12 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
+import com.aventstack.extentreports.Status;
+
+import base.TestBase;
 import utilities.TakeScreenshot;
 
-public class custom_Listener implements ITestListener {
+public class custom_Listener extends TestBase implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -19,12 +22,15 @@ public class custom_Listener implements ITestListener {
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestSuccess(result);
+		test.log(Status.PASS, result.getName().toUpperCase() + " PASSED");
+		extent.flush();
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		test.log(Status.FAIL, result.getName().toUpperCase() + " FAILED");
+		test.log(Status.FAIL, test.addScreenCaptureFromPath(TakeScreenshot.screenshotName));
+		extent.flush();
 	    System.setProperty("org.uncommons.reportng.escape-output", "false");
 		try {
 			TakeScreenshot.captureScreenshot();
@@ -32,9 +38,13 @@ public class custom_Listener implements ITestListener {
 			e.printStackTrace();
 		}
 		Reporter.log(
-			    "<a href='/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/test-output/Screenshots/failed.jpg' target='_blank'>View Screenshot</a>",
+			    "<a href='file:///Users/namanpatel/Documents/Selenium/Selenium_Projects/" +
+			    "Project1_DataDrivenFramework/test-output/Screenshots/" +
+			    TakeScreenshot.screenshotName +
+			    "' target='_blank'>View Screenshot</a>",
 			    true
 			);
+
 	}
 
 	@Override
