@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+//import com.aventstack.extentreports.Status;
 
 import utilities.ExcelReader;
 import utilities.ExtentManager;
@@ -73,15 +74,6 @@ public class TestBase {
 		wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 	}
 	
-	public boolean isElementPresent(By by) {
-		try {
-			driver.findElement(by);
-			return true;
-		} catch (NoSuchElementException e) {
-			return false;
-		}
-	}
-
 	@AfterSuite
 	public void tearDown() {
 		if (driver != null) {
@@ -90,6 +82,26 @@ public class TestBase {
 		
 		log.debug("Test Execution Completed !!!");
 	}
+
+	public boolean isElementPresent(By by) {
+		try {
+			driver.findElement(by);
+			return true;
+		} catch (NoSuchElementException e) {
+			return false;
+		}
+	}
+	
+	
+//	public void clickon(String locator) {
+//		driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
+//		test.log(Status.INFO, "Clicking on : " + locator);
+//	}
+//	public void sendkey(String locator, String value) {
+//		driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);;
+//		test.log(Status.INFO, "Typing in  "+ locator +" : " +  value);
+//	}
+
 
 	
 }

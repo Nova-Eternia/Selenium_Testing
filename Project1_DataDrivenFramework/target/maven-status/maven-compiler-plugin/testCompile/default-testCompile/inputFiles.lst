@@ -5,4 +5,5 @@
 /Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/src/test/java/testCases/AddCustomerTest.java
 /Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/src/test/java/testCases/BankManagerLoginTest.java
 /Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/src/test/java/utilities/ExcelReader.java
+/Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/src/test/java/utilities/ExtentManager.java
 /Users/namanpatel/Documents/Selenium/Selenium_Projects/Project1_DataDrivenFramework/src/test/java/utilities/TakeScreenshot.java

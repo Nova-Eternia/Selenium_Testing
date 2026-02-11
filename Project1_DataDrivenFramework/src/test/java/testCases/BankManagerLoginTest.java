@@ -10,13 +10,13 @@ import base.TestBase;
 public class BankManagerLoginTest extends TestBase {
    
 	@Test
-	public void loginAsBankManger() throws InterruptedException {
+	public void bankManagerLoginTest() throws InterruptedException {
 		log.debug("Inside Login Test ----");
 		driver.findElement(By.cssSelector(OR.getProperty("bmlBtn"))).click();
 		Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCustomerBtn"))),"Login not Successfull ----");
 		log.debug("Successfully Executed ----");
 		Reporter.log("Login Successfully Executed ----");//configer report
-		Assert.fail("Login Failed ---");
+//		Assert.fail("Login Failed ---");
 	
 	}
 }

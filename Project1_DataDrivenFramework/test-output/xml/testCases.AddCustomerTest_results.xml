@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Add Customer Test"
-           tests="2"
+           tests="4"
            failures="0"
            errors="0"
-           skipped="0"
-           time="0.435">
+           skipped="1"
+           time="0.726">
   <properties />
   
+            <testcase name="addCustomerTest" time="0.0" classname="testCases.AddCustomerTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="addCustomer" time="0.158" classname="testCases.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.277" classname="testCases.AddCustomerTest" />
+            <testcase name="addCustomerTest" time="0.185" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.417" classname="testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.122" classname="testCases.AddCustomerTest" />
       
 </testsuite>
